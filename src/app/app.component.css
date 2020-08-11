@@ -25,3 +25,11 @@
     text-align: center;
     border: 0.5px solid lightgray;
 }
+
+@media only screen and (max-width: 768px) {
+    .input-cell{
+        width: 30px;
+        height: 30px;;
+    }
+
+}
