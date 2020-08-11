@@ -1,0 +1,27 @@
+.row{
+    display:flex;
+    flex-direction: row;
+    width: min-content;
+}
+.column{
+    display: flex; 
+    flex-direction: column;
+}
+.row:nth-child(3n){
+    border-bottom: 1px solid black;
+}
+.row:first-child{
+    border-top: 1px solid black;
+}
+.column:first-child{
+    border-left: 1px solid black;
+}
+.column:nth-child(3n){
+    border-right: 1px solid black;
+}
+.input-cell{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 0.5px solid lightgray;
+}
